@@ -1,4 +1,4 @@
-# background-system
+# yxdt-mobile_shop-static
 项目描述：商城类项目，在PC端商城上线且维护稳定后公司要求开发移动端商城，我在此项目中担任项目负责人。
 
 应用技术：HTML5，CSS3，vue.js，vue-router ，axios，vuex等。
