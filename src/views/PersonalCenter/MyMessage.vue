@@ -9,7 +9,7 @@
       <template slot="body">
         <template v-if="show_empty">
           <div>
-            <yxdt-empty img-url="/mobile_shop/static/center/empty-message.png" text="暂无任何留言哦~"/>
+            <yxdt-empty img-url="/static/center/empty-message.png" text="暂无任何留言哦~"/>
             <a class="btn_s1 empty-btn" @click="add_message">新增留言</a>
           </div>
         </template>
@@ -18,7 +18,7 @@
             <van-swipe-cell v-for="(news,key) in message_list" :key="key">
               <li class="message-list">
                   <div class="m-title border-bottom">
-                    <div class="col_1"><img src="/mobile_shop/static/center/liuyan.png" alt=""><span>留言</span></div>
+                    <div class="col_1"><img src="/static/center/liuyan.png" alt=""><span>留言</span></div>
                     <div class="status">未回复</div>
                   </div>
                   <div class="m-info">
@@ -268,7 +268,7 @@ export default {
   height: 80px;
   right:30px;
   bottom:204px;
-  background:url(/mobile_shop/static/center/add_message.png) 0 0 no-repeat;
+  background:url(/static/center/add_message.png) 0 0 no-repeat;
   background-size:100% 100%;
 }
 </style>

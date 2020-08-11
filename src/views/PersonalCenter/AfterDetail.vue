@@ -3,7 +3,7 @@
     <!-- 订单详情 -->
     <full-modal class="bg_1" v-model="show_component">
       <div class="header_1" slot="header">
-        <img src="/mobile_shop/static/center/time.png" alt="" class="icon">
+        <img src="/static/center/time.png" alt="" class="icon">
         <span>{{order_status}}</span>
       </div>
       <div class="oder_detail_container" slot="body">
@@ -271,7 +271,7 @@ export default {
             margin-left:7px;
             width: 25px;
             height: 16px;
-            background:url(/mobile_shop/static/center/under_arrow.png) 0 0 no-repeat;
+            background:url(/static/center/under_arrow.png) 0 0 no-repeat;
             background-size:100% 100%;
           }
         }

@@ -47,7 +47,7 @@ export default {
 			border-radius:50%;
 			box-sizing:border-box;
 			&.selected{
-				background:url(/mobile_shop/static/center/selected.png) 0 0 no-repeat;
+				background:url(/static/center/selected.png) 0 0 no-repeat;
 				background-size:100% 100%;
 				border:none;
 			}

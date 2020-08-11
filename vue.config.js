@@ -2,7 +2,7 @@ const autoprefixer = require("autoprefixer");
 const pxtorem = require("postcss-pxtorem");
 
 module.exports = {
-    publicPath: "/mobile_shop",
+    publicPath: "./",
     devServer: {
       port: 8080,
     //   host: "localhost",

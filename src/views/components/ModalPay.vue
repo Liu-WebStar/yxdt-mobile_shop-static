@@ -10,27 +10,27 @@
         <div class="price"><i>￥</i><span>{{price}}</span></div>
         <ul>
           <li :class="{active:payIndexCache==0}" @click="changePay(0)">
-            <div class="icon"><img src="/mobile_shop/static/center/xinyongeduzhifu.png" alt=""></div>
+            <div class="icon"><img src="/static/center/xinyongeduzhifu.png" alt=""></div>
             <div class="name">信用额度支付</div>
             <div class="select"></div>
           </li>
           <li :class="{active:payIndexCache==1}" @click="changePay(1)">
-            <div class="icon"><img src="/mobile_shop/static/center/weixin1.png" alt=""></div>
+            <div class="icon"><img src="/static/center/weixin1.png" alt=""></div>
             <div class="name">微信支付</div>
             <div class="select"></div>
           </li>
           <li :class="{active:payIndexCache==2}" @click="changePay(2)">
-            <div class="icon"><img src="/mobile_shop/static/center/zhifubao.png" alt=""></div>
+            <div class="icon"><img src="/static/center/zhifubao.png" alt=""></div>
             <div class="name">支付宝支付</div>
             <div class="select"></div>
           </li>
           <li :class="{active:payIndexCache==3}" @click="changePay(3)">
-            <div class="icon"><img src="/mobile_shop/static/center/yinhangqia.png" alt=""></div>
+            <div class="icon"><img src="/static/center/yinhangqia.png" alt=""></div>
             <div class="name">银行汇款/转账</div>
             <div class="select"></div>
           </li>
           <li :class="{active:payIndexCache==4}" @click="changePay(4)">
-            <div class="icon"><img src="/mobile_shop/static/center/huodaofukuan.png" alt=""></div>
+            <div class="icon"><img src="/static/center/huodaofukuan.png" alt=""></div>
             <div class="name">货到付款</div>
             <div class="select"></div>
           </li>
@@ -148,7 +148,7 @@ export default {
       &.active{
         .select{
           border-color:#ea5513;
-          background:url(/mobile_shop/static/center/selected.png) 0 0 no-repeat;
+          background:url(/static/center/selected.png) 0 0 no-repeat;
           background-size:100% 100%;
         }
       }

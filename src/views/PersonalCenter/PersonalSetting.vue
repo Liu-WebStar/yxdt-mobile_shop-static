@@ -7,7 +7,7 @@
         <div class="personal_container">
           <div class="personal_item portrait border-bottom">
             <div class="item_filed">头像</div>
-            <div class="item_value"><img src="/mobile_shop/static/center/logo.png"></div>
+            <div class="item_value"><img src="/static/center/logo.png"></div>
             <div class="item_arrow"></div>
           </div>
           <div class="personal_item border-bottom">

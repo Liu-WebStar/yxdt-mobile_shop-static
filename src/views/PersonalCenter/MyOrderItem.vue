@@ -8,7 +8,7 @@
       <div class="order-info" @click="myOrder.go_detail">
         <template v-if="data.goods_list.length<4">
           <div class="goods-list" v-for="(goods,index) in data.goods_list" :key="index">
-            <img src="/mobile_shop/static/main/default_image.png" :imgurl="data.pdImg">
+            <img src="/static/main/default_image.png" :imgurl="data.pdImg">
             <div class="order-name">博文 (bowen) 25202 皮面笔记本单本装皮面笔记本 单本皮本单本装皮面笔记本 单本皮本单本装皮面笔记本 单本皮</div>
             <div class="order-attr">
               <div class="price"><i class="i1">￥</i><i class="i2">128.00</i></div>
@@ -19,7 +19,7 @@
         <template v-else>
           <div class="goods-list-more">
             <div class="img-list" @touchmove.stop>
-              <img v-for="(goods,index) in data.goods_list" :key="index" src="/mobile_shop/static/main/default_image.png" :imgurl="data.pdImg">
+              <img v-for="(goods,index) in data.goods_list" :key="index" src="/static/main/default_image.png" :imgurl="data.pdImg">
             </div>
             <div class="order-attr">
               <div class="price"><i class="i1">￥</i><i class="i2">128.00</i></div>

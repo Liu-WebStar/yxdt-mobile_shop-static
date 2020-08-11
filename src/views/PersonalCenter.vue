@@ -3,14 +3,14 @@
     <mescroll-vue class="p_center" ref="mescroll" :up="mescrollUp" @init="mescrollInit">
       <div class="login_box">
         <template v-if="log_info.has_login">
-          <div class="portrait" @click="slide_setting"><img src="/mobile_shop/static/center/logo.png"></div>
+          <div class="portrait" @click="slide_setting"><img src="/static/center/logo.png"></div>
           <div class="login_name has_login">
             <div class="name_1" @click="slide_setting">邢123345</div>
             <div class="name_vip">会员等级: 暂无任何等级</div>
           </div>
         </template>
         <template v-else>
-          <div class="portrait" @click="login_modal"><img src="/mobile_shop/static/center/logo.png"></div>
+          <div class="portrait" @click="login_modal"><img src="/static/center/logo.png"></div>
           <div class="login_name" @click="login_modal">登录/注册</div>
         </template>
         <div class="set_icon" @click="slide_setting"></div>

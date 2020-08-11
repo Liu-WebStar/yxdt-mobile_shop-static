@@ -34,7 +34,7 @@
           </template>
         </van-swipe-cell>
         <template v-if="!address_list.length">
-          <yxdt-empty img-url="/mobile_shop/static/center/empty-address.png" text="暂无任何地址信息哦~"/>
+          <yxdt-empty img-url="/static/center/empty-address.png" text="暂无任何地址信息哦~"/>
           <a class="btn_s1 empty-btn" @click="add_address">新增收货地址</a>
         </template>
       </div>

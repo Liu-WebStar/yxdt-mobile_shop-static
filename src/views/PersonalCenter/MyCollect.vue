@@ -7,7 +7,7 @@
       >
       <template slot="header">我的收藏</template>
       <template slot="body">
-        <yxdt-empty v-show="show_empty" img-url="/mobile_shop/static/center/empty-collect.png" text="暂无收藏哦~"/>
+        <yxdt-empty v-show="show_empty" img-url="/static/center/empty-collect.png" text="暂无收藏哦~"/>
         <mescroll-vue v-show="!show_empty" ref="mescroll" :down="mescrollDown" :up="mescrollUp" @init="mescrollInit">
           <ul class="collect-group">
             <li v-for="(news,key) in collect_list" :key="key" class="border-bottom">
@@ -55,7 +55,7 @@ export default {
         },
         noMoreSize: 5, // 如果列表已无数据,可设置列表的总数量要大于等于5条才显示无更多数据;避免列表数据过少(比如只有一条数据),显示无更多数据会不好看
         toTop: { // 配置回到顶部按钮
-          src: '/mobile_shop/static/mescroll/mescroll-totop.png'
+          src: '/static/mescroll/mescroll-totop.png'
         },
         htmlNodata: '<p class="upwarp-nodata">没有更多商品了~</p>', // 无数据的布局
         lazyLoad: {
@@ -136,7 +136,7 @@ export default {
       console.log('add_to_car');
       Toast({
         message: '加入购物车成功',
-        icon: '/mobile_shop/static/center/success.png',
+        icon: '/static/center/success.png',
         className:'toast-image'
       });
     }

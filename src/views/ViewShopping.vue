@@ -554,10 +554,10 @@ export default {
       },
       showShare: false,
       options: [
-        { name: '微信好友', icon: '/mobile_shop/static/goods/wechat.png' },
-        { name: '朋友圈', icon: '/mobile_shop/static/goods/circle.png' },
-        { name: '分享链接', icon: '/mobile_shop/static/goods/link.png' },
-        { name: '分享图片', icon: '/mobile_shop/static/goods/load.png' }
+        { name: '微信好友', icon: '/static/goods/wechat.png' },
+        { name: '朋友圈', icon: '/static/goods/circle.png' },
+        { name: '分享链接', icon: '/static/goods/link.png' },
+        { name: '分享图片', icon: '/static/goods/load.png' }
       ]
     }
   },

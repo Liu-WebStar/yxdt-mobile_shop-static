@@ -2,7 +2,7 @@
   <div class="order-submit" v-title data-title="确认订单"> 
     <div class="page-body">
       <div class="login_box">
-        <div class="image"><img src="/mobile_shop/static/cart/success.png"></div>
+        <div class="image"><img src="/static/cart/success.png"></div>
         <div class="text">订单提交成功</div>
       </div>
       <div class="order-info">

@@ -60,7 +60,7 @@
                     <ul id="dataList">
                       <li class="goods_li" v-for="(item,index) in goods_res" :key='index'>
                         <a @click="goods_detail">
-                          <img class="goods_pic" to="/goods" :imgurl='item.img_src' src="/mobile_shop/static/main/default_image.png" />
+                          <img class="goods_pic" to="/goods" :imgurl='item.img_src' src="/static/main/default_image.png" />
                         </a>
                         <div class="goods_info">
                           <a @click="goods_detail" class="goods_word">{{item.goods_name}}</a>
@@ -134,7 +134,7 @@ export default {
         },
         noMoreSize: 10, // 如果列表已无数据,可设置列表的总数量要大于等于5条才显示无更多数据;避免列表数据过少(比如只有一条数据),显示无更多数据会不好看
         // toTop: {
-        //   src: '/mobile_shop/static/mescroll/mescroll-totop.png' // 回到顶部按钮的图片路径,支持网络图
+        //   src: '/static/mescroll/mescroll-totop.png' // 回到顶部按钮的图片路径,支持网络图
         // },
         empty: {
           // 列表第一页无任何数据时,显示的空提示布局; 需配置warpId才生效;

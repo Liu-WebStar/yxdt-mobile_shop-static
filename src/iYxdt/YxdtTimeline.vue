@@ -22,7 +22,7 @@ export default {
       width:38px;
       flex-shrink:0;
       position:relative;
-      background:url(/mobile_shop/static/center/ddd.png) 9px 0 repeat-y;
+      background:url(/static/center/ddd.png) 9px 0 repeat-y;
       padding-top:8px;
       &:before{
         content:'';

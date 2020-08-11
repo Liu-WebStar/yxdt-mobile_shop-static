@@ -97,7 +97,7 @@ export default {
       props:{
         imgUrl:{
           type:String,
-          default:'/mobile_shop/static/center/data-empty.png'
+          default:'/static/center/data-empty.png'
         },
         text:{
           type:String,

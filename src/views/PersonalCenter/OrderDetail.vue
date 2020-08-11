@@ -3,18 +3,18 @@
     <!-- 订单详情 -->
     <full-modal class="bg_1" v-model="show_component">
       <div class="header_1" slot="header">
-        <img src="/mobile_shop/static/center/time.png" alt="" class="icon">
+        <img src="/static/center/time.png" alt="" class="icon">
         <span>{{order_status}}</span>
       </div>
       <div class="oder_detail_container" slot="body">
         <div class="logistics-info">
           <div class="record border-bottom">
-            <img src="/mobile_shop/static/center/wuliu.png" alt="" class="icon">
+            <img src="/static/center/wuliu.png" alt="" class="icon">
             <div class="text">2020-06-24 11:41:23,您已成功创建订单</div>
             <div class="right-arrow"></div>
           </div>
           <div class="my-region">
-            <img src="/mobile_shop/static/center/position.png" alt="" class="icon">
+            <img src="/static/center/position.png" alt="" class="icon">
             <div class="region-info">
               <div class="person">
                 <span class="name">邢晓倩</span>
@@ -26,7 +26,7 @@
         </div>
         <div class="goods-info">
           <div class="goods-header">
-            <img src="/mobile_shop/static/center/store.png" alt="" class="icon">
+            <img src="/static/center/store.png" alt="" class="icon">
             <div class="text">一线达通自营</div>
           </div>
           <div class="goods-group">
@@ -237,7 +237,7 @@ export default {
           margin-left:20px;
           width: 16px;
           height: 25px;
-          background:url(/mobile_shop/static/center/right-arrow.png) 0 0 no-repeat;
+          background:url(/static/center/right-arrow.png) 0 0 no-repeat;
           background-size:100% 100%;
         }
       }
@@ -369,7 +369,7 @@ export default {
             margin-left:7px;
             width: 25px;
             height: 16px;
-            background:url(/mobile_shop/static/center/under_arrow.png) 0 0 no-repeat;
+            background:url(/static/center/under_arrow.png) 0 0 no-repeat;
             background-size:100% 100%;
           }
         }

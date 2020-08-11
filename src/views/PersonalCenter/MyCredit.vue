@@ -12,12 +12,12 @@
         <template v-if="init">
           <template v-if="show_empty">
             <div>
-              <yxdt-empty img-url="/mobile_shop/static/center/empty-credit.png" text="暂无数据哦~"/>
+              <yxdt-empty img-url="/static/center/empty-credit.png" text="暂无数据哦~"/>
             </div>
           </template>
           <template v-else>
             <div class="info-container">
-              <div class="img-box"><img src="/mobile_shop/static/center/xinyongeduzhanghu.png" alt=""></div>
+              <div class="img-box"><img src="/static/center/xinyongeduzhanghu.png" alt=""></div>
               <div class="h2">可用信用额度</div>
               <div class="num">2198.00</div>
             </div>

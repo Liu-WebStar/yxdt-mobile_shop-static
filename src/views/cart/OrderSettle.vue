@@ -6,18 +6,18 @@
           <div class="default-box" v-if="selectedAddress.default">默认</div>
           <div class="name">邢晓倩</div>
           <div class="phone">{{'18512345678' | phone}}</div>
-          <img src="/mobile_shop/static/center/right-arrow.png" alt="" class="arrow-right">
+          <img src="/static/center/right-arrow.png" alt="" class="arrow-right">
         </div>
         <div class="address-detail">北京市 北京市 西城区莲花池东路3号天云五金大厦308室  天云五金大厦 308室</div>
       </div>
       <div class="add-address" @click="add_address" v-else>
-        <img src="/mobile_shop/static/cart/dizhi.png" alt="" class="position_icon">
+        <img src="/static/cart/dizhi.png" alt="" class="position_icon">
         <div class="text">添加收货地址</div>
-        <img src="/mobile_shop/static/center/right-arrow.png" alt="" class="right_icon">
+        <img src="/static/center/right-arrow.png" alt="" class="right_icon">
       </div>
       <div class="goods-info">
         <div class="goods-header">
-          <img src="/mobile_shop/static/center/store.png" alt="" class="icon">
+          <img src="/static/center/store.png" alt="" class="icon">
           <div class="text">一线达通自营</div>
         </div>
         <div class="goods-group">
@@ -65,21 +65,21 @@
           <div class="value pay">
             <img :src="pay_type.image" alt="" class="wx_icon">
             <div class="text">{{pay_type.text}}</div>
-            <img src="/mobile_shop/static/center/right-arrow.png" alt="" class="right_icon">
+            <img src="/static/center/right-arrow.png" alt="" class="right_icon">
           </div>
         </div>
         <div class="action-list" @click="show_invoice">
           <div class="label">发票信息</div>
           <div class="value">
             <div class="text">不开发票</div>
-            <img src="/mobile_shop/static/center/right-arrow.png" alt="" class="right_icon">
+            <img src="/static/center/right-arrow.png" alt="" class="right_icon">
           </div>
         </div>
         <div class="action-list" @click="show_backup">
           <div class="label">备注</div>
           <div class="value">
             <div class="text gray">填写订单额外要求</div>
-            <img src="/mobile_shop/static/center/right-arrow.png" alt="" class="right_icon">
+            <img src="/static/center/right-arrow.png" alt="" class="right_icon">
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="page-footer">
         <router-link class="go-back" to="/cart">
-          <img src="/mobile_shop/static/center/left-arrow.png" alt="" class="left-arrow">
+          <img src="/static/center/left-arrow.png" alt="" class="left-arrow">
           <span>购物车</span>
         </router-link>
         <div class="col_2">
@@ -150,7 +150,7 @@
           </div>
           <div class="shadow-add-address">
             <div class="item-box" @click="add_address">
-              <img src="/mobile_shop/static/cart/icon-add.png" alt="" class="icon">
+              <img src="/static/cart/icon-add.png" alt="" class="icon">
               <span class="text">新建收货地址</span>
             </div>
           </div>
@@ -310,23 +310,23 @@ export default {
       var obj={image:'',text:''};
       switch(this.payIndex){
         case 0:
-          obj.image='/mobile_shop/static/center/xinyongeduzhifu.png';
+          obj.image='/static/center/xinyongeduzhifu.png';
           obj.text='信用额度支付';
           break;
         case 1:
-          obj.image='/mobile_shop/static/cart/weixin.png';
+          obj.image='/static/cart/weixin.png';
           obj.text='微信支付';
           break;
         case 2:
-          obj.image='/mobile_shop/static/center/zhifubao.png';
+          obj.image='/static/center/zhifubao.png';
           obj.text='支付宝支付';
           break;
         case 3:
-          obj.image='/mobile_shop/static/center/yinhangqia.png';
+          obj.image='/static/center/yinhangqia.png';
           obj.text='银行汇款/转账';
           break;
         case 4:
-          obj.image='/mobile_shop/static/center/huodaofukuan.png';
+          obj.image='/static/center/huodaofukuan.png';
           obj.text='货到付款';
           break;
       }
@@ -617,7 +617,7 @@ export default {
             margin-left:7px;
             width: 25px;
             height: 16px;
-            background:url(/mobile_shop/static/center/under_arrow.png) 0 0 no-repeat;
+            background:url(/static/center/under_arrow.png) 0 0 no-repeat;
             background-size:100% 100%;
           }
         }
@@ -739,7 +739,7 @@ export default {
         box-sizing:border-box;
         flex-shrink:0;
         &.selected{
-          background:url(/mobile_shop/static/center/selected.png) 0 0 no-repeat;
+          background:url(/static/center/selected.png) 0 0 no-repeat;
           background-size:100% 100%;
           border:none;
         }

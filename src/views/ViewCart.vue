@@ -3,7 +3,7 @@
     <div class="view-cart">
       <template v-if="!dataList.length">
         <div class="empty-box" :class="{noCenter:historyList.length}">
-          <yxdt-empty img-url="/mobile_shop/static/cart/gouwucheweikong.png" text="购物车空空如也,快来逛一逛吧~"/>
+          <yxdt-empty img-url="/static/cart/gouwucheweikong.png" text="购物车空空如也,快来逛一逛吧~"/>
           <router-link class="btn_s1 empty-btn" to="/">逛一逛</router-link>
           <div class="history-box" v-if="historyList.length">
             <component-history :historyList="historyList"/>
@@ -20,7 +20,7 @@
           <div class="cart-header">
             <div class="select-box" @click="selectAll">
               <div class="cart-select" :class="{selected:selectAllType}"></div>
-              <img src="/mobile_shop/static/cart/dianpu.png" alt="" class="icon">
+              <img src="/static/cart/dianpu.png" alt="" class="icon">
               <div class="cart-header-text">一线达通自营</div>
             </div>
           </div>
@@ -235,7 +235,7 @@ export default {
       border-radius:50%;
       box-sizing:border-box;
       &.selected{
-        background:url(/mobile_shop/static/center/selected.png) 0 0 no-repeat;
+        background:url(/static/center/selected.png) 0 0 no-repeat;
         background-size:100% 100%;
         border:none;
       }

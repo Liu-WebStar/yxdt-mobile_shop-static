@@ -8,7 +8,7 @@
           <div class="name" @click="push_goods_info">联想(Lenovo)K4-IM L 14英寸笔记本电 联想(Lenovo)K4-IM L 14英寸笔记本电 </div>
           <div class="action">
             <div class="price"><span class="s1">￥</span><span class="s2">2088.00</span></div>
-            <img class="cart" src="/mobile_shop/static/cart/cart-icon.png" alt="">
+            <img class="cart" src="/static/cart/cart-icon.png" alt="">
           </div>
         </div>
       </div>

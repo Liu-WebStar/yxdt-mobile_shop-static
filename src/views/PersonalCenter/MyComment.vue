@@ -9,7 +9,7 @@
       <template slot="body">
         <template v-if="show_empty">
           <div>
-            <yxdt-empty img-url="/mobile_shop/static/center/empty-message.png" text="暂无任何评论哦~"/>
+            <yxdt-empty img-url="/static/center/empty-message.png" text="暂无任何评论哦~"/>
           </div>
         </template>
         <mescroll-vue v-show="!show_empty" ref="mescroll" :down="mescrollDown" :up="mescrollUp" @init="mescrollInit">

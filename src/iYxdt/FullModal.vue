@@ -147,9 +147,9 @@ export default {
     }
     &.bg_1{
       .full_modal_header{
-        background:url(/mobile_shop/static/center/bg_header_1.png) 0 0 no-repeat;
+        background:url(/static/center/bg_header_1.png) 0 0 no-repeat;
         .left_arrow{
-          background-image:url(/mobile_shop/static/center/left_arrow.png);
+          background-image:url(/static/center/left_arrow.png);
           transform: translateY(-50%);
         }
       }
