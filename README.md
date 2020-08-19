@@ -15,6 +15,8 @@
   移动端商城：https://www.city-office.com.cn/mobile_shop
   移动端商城测试站：http://api.city-office.com.cn/main/mobile_shop
 
-开发日期：2018
+开发日期：2020
+
+上线时间：2020
 
 作者：刘勇
