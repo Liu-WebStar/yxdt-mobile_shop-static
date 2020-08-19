@@ -1,5 +1,5 @@
 # yxdt-mobile_shop-static
-项目描述：商城类项目，在PC端商城上线且维护稳定后公司要求开发移动端商城，我在此项目中担任项目负责人。
+项目描述：手机端商城类项目，在公司PC端商城上线且维护稳定后公司要求开发移动端商城，我在此项目中担任项目负责人，此版本是项目开发前期我在开发完静态页面时保存的一个静态版本，此版本不含任何请求接口等相关功能。
 
 应用技术：HTML5，CSS3，vue.js，vue-router ，axios，vuex等。
 
@@ -13,6 +13,7 @@
 线上网址：
   PC端商城：https://www.city-office.com.cn/
   移动端商城：https://www.city-office.com.cn/mobile_shop
+  移动端商城测试站：http://api.city-office.com.cn/main/mobile_shop
 
 开发日期：2018
 
